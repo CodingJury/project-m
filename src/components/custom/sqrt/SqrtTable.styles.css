@@ -1,0 +1,26 @@
+
+#sqrt_table {
+  text-align: right;
+  border-collapse: collapse;
+}
+  
+#sqrt_table td {
+  padding: 2px 4px;
+  /* border: 1px solid black */
+}
+
+#sqrt_table tr > td:first-child {
+  border-right: 2px solid black
+}
+
+#sqrt_table .borderB {
+    border-bottom: 2px solid black;
+}
+
+#sqrt_table .overline {
+    text-decoration: overline;
+}
+
+#sqrt_table .dotline {
+    background: url(dot.png) top center repeat-y;
+}

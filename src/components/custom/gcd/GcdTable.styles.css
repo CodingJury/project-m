@@ -1,0 +1,31 @@
+#gcd_table {
+  border-collapse: collapse;
+}
+
+#gcd_table td {
+  padding: .5rem;
+  text-align: right;
+}
+
+#gcd_table .divisor {
+  border-bottom: 3px solid black;
+}
+
+#gcd_table .dividend {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+#gcd_table .quotient {
+  border-bottom: 3px solid black;
+  text-align: left;
+}
+
+#gcd_table .remainder {
+  border-top: 1px solid black;
+}
+
+#gcd_table .remainder:nth-last-child(n+2) {
+  border-bottom: 3px solid black;
+}

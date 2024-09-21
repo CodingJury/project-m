@@ -1,0 +1,21 @@
+#lcm_table {
+  border-collapse: collapse;
+}
+
+#lcm_table td {
+  padding: .5rem;
+  text-align: right;
+}
+
+#lcm_table tr:nth-last-child(n+2) {
+  border-bottom: 1px solid #aaa;
+}
+
+
+#lcm_table tr > td:first-child {
+  border-right: 2px solid #555;
+}
+
+#lcm_table td:not(:first-child):not(:last-child)::after {
+  content: " ,";
+}
